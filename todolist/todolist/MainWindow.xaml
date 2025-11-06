@@ -5,7 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:todolist"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="800"
+        Closing="Window_Closing">
     <Grid Background="AliceBlue" x:Name="taskGrid">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="auto"/>
@@ -19,16 +20,25 @@
                 <RowDefinition Height="auto"/>
                 <RowDefinition Height="auto"/>
                 <RowDefinition Height="*"/>
-        </Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+            </Grid.RowDefinitions>
 
-            <Border BorderBrush="Black" BorderThickness="1">
-                <TextBlock Grid.Column="0" Grid.Row="0" Text="Введите таску:" TextAlignment="Center" VerticalAlignment="Center" Margin="10, 10"/>
-            </Border>
-            <TextBox x:Name="TaskTextBox" Grid.Column="1"/>
-            <Button x:Name="AddButton" Grid.Column="2" Content="Добавить" Click="AddButton_Click"/>
-            <Button x:Name="FilterButton" Grid.Column="3" Content="Фильтр"/>
-
-            <Border Grid.Row="1" BorderBrush="Black" BorderThickness="1">
+        <Border BorderBrush="Black" BorderThickness="1">
+            <TextBlock Grid.Column="0" Grid.Row="0" Text="Введите таску:" TextAlignment="Center" VerticalAlignment="Center" Margin="10, 10"/>
+        </Border>
+        <TextBox x:Name="TaskTextBox" Grid.Column="1"/>
+        <Button x:Name="AddButton" Grid.Column="2" Content="Добавить" Click="AddButton_Click"/>
+        <Border Grid.Row="0" Grid.Column="3" BorderBrush="Black" BorderThickness="1">
+            <ComboBox x:Name="FilterComboBox" Grid.Column="3" Grid.Row="0" VerticalAlignment="Center"
+                              SelectionChanged="FilterComboBox_SelectionChanged">
+                <ComboBoxItem Content="Фильтр" IsSelected="True"/>
+                <ComboBoxItem Content="Дом"/>
+                <ComboBoxItem Content="Работа"/>
+                <ComboBoxItem Content="Учеба"/>
+                <ComboBoxItem Content="Прочее"/>
+            </ComboBox>
+        </Border>
+        <Border Grid.Row="1" BorderBrush="Black" BorderThickness="1">
                 <TextBlock Text="Дата" TextAlignment="Center" VerticalAlignment="Center" Margin="2, 2"/>
             </Border>
         <Border Grid.Row="1" Grid.Column="1" BorderBrush="Black" BorderThickness="1">

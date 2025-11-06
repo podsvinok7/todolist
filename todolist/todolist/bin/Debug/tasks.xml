@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Tasks>
+  <Task>
+    <Text>выаыва</Text>
+    <CreationDate>05.11.2025 15:34</CreationDate>
+    <IsCompleted>True</IsCompleted>
+    <CompletionDate>05.11.2025 15:34</CompletionDate>
+    <Category>Дом</Category>
+    <HasStrikethrough>True</HasStrikethrough>
+  </Task>
+  <Task>
+    <Text>выа</Text>
+    <CreationDate>05.11.2025 16:11</CreationDate>
+    <IsCompleted>False</IsCompleted>
+    <CompletionDate />
+    <Category>Работа</Category>
+    <HasStrikethrough>True</HasStrikethrough>
+  </Task>
+  <Task>
+    <Text>ыва</Text>
+    <CreationDate>05.11.2025 16:11</CreationDate>
+    <IsCompleted>True</IsCompleted>
+    <CompletionDate>05.11.2025 20:49</CompletionDate>
+    <Category>Учеба</Category>
+    <HasStrikethrough>True</HasStrikethrough>
+  </Task>
+  <Task>
+    <Text>ывааыва</Text>
+    <CreationDate>05.11.2025 16:11</CreationDate>
+    <IsCompleted>False</IsCompleted>
+    <CompletionDate />
+    <Category>Прочее</Category>
+    <HasStrikethrough>True</HasStrikethrough>
+  </Task>
+  <Task>
+    <Text>ыва</Text>
+    <CreationDate>05.11.2025 16:11</CreationDate>
+    <IsCompleted>False</IsCompleted>
+    <CompletionDate />
+    <Category>Дом</Category>
+    <HasStrikethrough>True</HasStrikethrough>
+  </Task>
+  <Task>
+    <Text>ыва</Text>
+    <CreationDate>05.11.2025 16:11</CreationDate>
+    <IsCompleted>True</IsCompleted>
+    <CompletionDate>05.11.2025 20:49</CompletionDate>
+    <Category>Работа</Category>
+    <HasStrikethrough>True</HasStrikethrough>
+  </Task>
+  <Task>
+    <Text>ыва</Text>
+    <CreationDate>05.11.2025 16:11</CreationDate>
+    <IsCompleted>False</IsCompleted>
+    <CompletionDate />
+    <Category>Учеба</Category>
+    <HasStrikethrough>True</HasStrikethrough>
+  </Task>
+  <Task>
+    <Text>ывавыа</Text>
+    <CreationDate>05.11.2025 16:11</CreationDate>
+    <IsCompleted>True</IsCompleted>
+    <CompletionDate>05.11.2025 23:38</CompletionDate>
+    <Category>Прочее</Category>
+    <HasStrikethrough>True</HasStrikethrough>
+  </Task>
+</Tasks>
